@@ -1,0 +1,111 @@
+.façade {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/assets/background/pic7\ \(4\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 3rem;
+    position: relative;
+    opacity:0.8;
+}
+.logout{
+position: absolute;
+top: 0.55rem;
+right:2rem;
+background-color: rgba(0, 0, 0, 0.575);
+width:120px;
+padding: 2px 6px;
+border-radius: 15px;
+/* transition: all 5s linear; */
+}
+.optionList{
+    position: absolute;
+    padding: 3px 1px 3px 0;
+    right:5px;
+}
+.logoutIcon{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 5px;
+   
+}
+.logout:hover .option{
+display: block;
+    cursor: pointer;
+
+}
+
+.logout:hover  {
+    height: 5rem;
+}
+
+.option{
+    color: white;
+    display: none;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;    
+}
+
+.option:hover{
+    color: #48ede5;
+}
+.username{
+    color: rgb(236, 225, 225);
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+.welcome{
+    font-size: 3rem;
+    color:rgb(230, 204, 148) ;
+    background-image: linear-gradient(to right, #9437b9 0%, #48ede5 100%);
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.façadeContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    height: 300px;
+    width: 85%;
+    gap: 2rem;
+    border-radius:10px;
+}
+
+.logosocial{
+    height: 130px;
+    width: 150px;
+    object-fit: contain;
+   
+}
+
+.logoweather{
+    height: 130px;
+    width: 130px;
+    object-fit: contain;
+    
+}
+.logosocial:hover,.logoweather:hover{
+border-bottom: 1px solid white;
+}
+
+.time{
+background-image: linear-gradient(to right, #f04556 0%, #eda548 100%);
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+
+.dateWelcome{
+    text-align: center;
+}

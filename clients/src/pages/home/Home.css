@@ -1,0 +1,20 @@
+.homeContainer{
+    display: flex;
+   max-width: 94%;
+   gap: 0.7rem;
+    margin:0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(151, 151, 151, 0.897);
+    border-radius: 10px;
+}

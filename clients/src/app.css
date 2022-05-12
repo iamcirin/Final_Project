@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    background-color: rgb(30, 31, 41);
+    /* background-image:linear-gradient(to top, #c1e7e2 0%, #abc1e9 100%);
+    position: relative;
+    z-index: 88; */
+   
+}
+/* body::after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.199);
+    z-index: -2;
+} */
